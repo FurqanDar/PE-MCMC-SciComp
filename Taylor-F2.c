@@ -88,7 +88,7 @@ else
     NoiseMixer();
     
 
-    MassMCMC(5000, 1.4, 1.4, FarR, 7);
+    MassMCMC(50000, 1.4, 1.4, FarR, 7);
     
     free(PSDArr);
     free(DatArr);
